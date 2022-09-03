@@ -1,9 +1,7 @@
 import { useState } from "react";
-import ImageUploader from "./assets/components/ImageUploader";
+import ImageUploader from "./components/ImageUploader";
 
 function App() {
-  const [uploaded, setUploaded] = useState(null);
-
   return <ImageUploader />;
 }
 
